@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>All</item>
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>General</item>
+        <item>Health</item>
+        <item>Science</item>
+        <item>Sports</item>
+        <item>Technology</item>
+    </string-array>
+    <string-array name="country_array">
+        <item>India</item>
+        <item>Argentina</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Belgium</item>
+        <item>Bulgaria</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Cuba</item>
+        <item>Czechia</item>
+        <item>Switzerland</item>
+        <item>UAE</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF03DAC5</color>
+    <color name="purple_700">#FF03DAC5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">NewsApp</string>
+    <string name="date_news">Published date</string>
+    <string name="description_news_demo">Description (Max 4 lines)</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_news">Image News</string>
+    <string name="logo">Logo</string>
+    <string name="search">Search</string>
+    <string name="sources">Sources</string>
+    <string name="title_news_demo">Title (Max 2 lines)</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_search">Search</string>
+    <string name="title_trending">Trending</string>
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_baseline_newspaper_24</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+    <style name="Theme.NewsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorOnSecondary</item>
+        
+    </style>
+</resources>

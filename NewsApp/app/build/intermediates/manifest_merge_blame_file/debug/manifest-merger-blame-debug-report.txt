@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.newsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:8:5-28:19
+14        android:allowBackup="true"
+14-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.8.0] /Users/jinilpatel/.gradle/caches/transforms-3/43396ea9addb6544ae648fd5497e98d3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:10:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:11:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:15:9-35
+23        android:testOnly="true"
+24        android:theme="@style/SplashTheme" >
+24-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:16:9-43
+25        <activity
+25-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:18:9-26:20
+26            android:name="com.example.newsapp.MainActivity"
+26-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:19:13-41
+27            android:exported="true" >
+27-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:20:13-36
+28            <intent-filter>
+28-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:13-25:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:22:17-69
+29-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:22:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:24:17-77
+31-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:24:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.newsapp.NewsDetailActivity" />
+34-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:27:9-56
+34-->/Users/jinilpatel/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:27:19-53
+35
+36        <service
+36-->[androidx.room:room-runtime:2.5.0] /Users/jinilpatel/.gradle/caches/transforms-3/eccb3abd1517f89478b9c1b4a05aa204/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.5.0] /Users/jinilpatel/.gradle/caches/transforms-3/eccb3abd1517f89478b9c1b4a05aa204/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+38            android:directBootAware="true"
+38-->[androidx.room:room-runtime:2.5.0] /Users/jinilpatel/.gradle/caches/transforms-3/eccb3abd1517f89478b9c1b4a05aa204/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.5.0] /Users/jinilpatel/.gradle/caches/transforms-3/eccb3abd1517f89478b9c1b4a05aa204/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+40
+41        <uses-library
+41-->[androidx.window:window:1.0.0] /Users/jinilpatel/.gradle/caches/transforms-3/4ce312fd6439a49a358668823293b71d/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+42            android:name="androidx.window.extensions"
+42-->[androidx.window:window:1.0.0] /Users/jinilpatel/.gradle/caches/transforms-3/4ce312fd6439a49a358668823293b71d/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+43            android:required="false" />
+43-->[androidx.window:window:1.0.0] /Users/jinilpatel/.gradle/caches/transforms-3/4ce312fd6439a49a358668823293b71d/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+44        <uses-library
+44-->[androidx.window:window:1.0.0] /Users/jinilpatel/.gradle/caches/transforms-3/4ce312fd6439a49a358668823293b71d/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+45            android:name="androidx.window.sidecar"
+45-->[androidx.window:window:1.0.0] /Users/jinilpatel/.gradle/caches/transforms-3/4ce312fd6439a49a358668823293b71d/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] /Users/jinilpatel/.gradle/caches/transforms-3/4ce312fd6439a49a358668823293b71d/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] /Users/jinilpatel/.gradle/caches/transforms-3/e4977fbb7733617cc875870bd17aac33/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] /Users/jinilpatel/.gradle/caches/transforms-3/e4977fbb7733617cc875870bd17aac33/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+50            android:authorities="com.example.newsapp.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/jinilpatel/.gradle/caches/transforms-3/e4977fbb7733617cc875870bd17aac33/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] /Users/jinilpatel/.gradle/caches/transforms-3/e4977fbb7733617cc875870bd17aac33/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] /Users/jinilpatel/.gradle/caches/transforms-3/e4977fbb7733617cc875870bd17aac33/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] /Users/jinilpatel/.gradle/caches/transforms-3/e4977fbb7733617cc875870bd17aac33/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] /Users/jinilpatel/.gradle/caches/transforms-3/e4977fbb7733617cc875870bd17aac33/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jinilpatel/.gradle/caches/transforms-3/573956b110f49733f683152f2af27eb0/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jinilpatel/.gradle/caches/transforms-3/573956b110f49733f683152f2af27eb0/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/jinilpatel/.gradle/caches/transforms-3/573956b110f49733f683152f2af27eb0/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>

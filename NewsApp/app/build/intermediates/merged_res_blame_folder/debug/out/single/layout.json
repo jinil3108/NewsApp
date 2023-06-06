@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.newsapp-mergeDebugResources-52:/layout/fragment_saved.xml",
+        "source": "com.example.newsapp-main-55:/layout/fragment_saved.xml"
+    },
+    {
+        "merged": "com.example.newsapp-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.example.newsapp-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.newsapp-mergeDebugResources-52:/layout/fragment_trending.xml",
+        "source": "com.example.newsapp-main-55:/layout/fragment_trending.xml"
+    },
+    {
+        "merged": "com.example.newsapp-mergeDebugResources-52:/layout/item_news.xml",
+        "source": "com.example.newsapp-main-55:/layout/item_news.xml"
+    },
+    {
+        "merged": "com.example.newsapp-mergeDebugResources-52:/layout/activity_news_detail.xml",
+        "source": "com.example.newsapp-main-55:/layout/activity_news_detail.xml"
+    },
+    {
+        "merged": "com.example.newsapp-mergeDebugResources-52:/layout/fragment_search.xml",
+        "source": "com.example.newsapp-main-55:/layout/fragment_search.xml"
+    }
+]
